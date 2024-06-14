@@ -6,7 +6,7 @@ export default function Workplace({img, title, duration, description}) {
   <article>
     <figure>
       <div>
-        <img src={img} alt={title} width="100%"/>
+        <img loading="lazy" src={img} alt={title} width="100%"/>
         <figcaption>
           {title}
         </figcaption>

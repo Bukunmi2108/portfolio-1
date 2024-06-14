@@ -28,7 +28,7 @@ export default function Home() {
                 <a href="#skills">Skills</a>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <a href="#bento">Projects</a>
               </li>
               <li>
                 <a href="mailto:bukunmi.akinyemi.enoch@gmail.com" className="button">Contact Me</a>
@@ -48,6 +48,7 @@ export default function Home() {
                   Bukunmi Akinyemi
                 </h1>
                 <p>
+                  A law graduate and a
                   Designer and Developer with proficiency in HTML, CSS, Javascript and React. <span>
                     I'm interested in AI and Machine Learning
                   </span>
@@ -82,24 +83,24 @@ export default function Home() {
           <section className="logos container">
             <div className="marquee">
               <div className="track">
-                <img src="./imgs/html.png" alt="HTML" width="128"/>
-                <img src="./imgs/css.png" alt="CSS" width="128"/>
-                <img src="./imgs/javascript.png" alt="JAVASCRIPT" width="128"/>
-                <img src="./imgs/sass.png" alt="SASS" width="128"/>
-                <img src="./imgs/react.png" alt="REACT" width="128"/>
-                <img src="./imgs/nextjs.png" alt="NEXTJS" width="128"/>
-                <img src="./imgs/azure.png" alt="AZURE" width="128"/>
-                <img src="./imgs/vscode.png" alt="VS CODE" width="128"/>
-                <img src="./imgs/python.png" alt="PYTHON" width="128"/>
-                <img src="./imgs/html.png" alt="HTML" width="128"/>
-                <img src="./imgs/css.png" alt="CSS" width="128"/>
-                <img src="./imgs/javascript.png" alt="JAVASCRIPT" width="128"/>
-                <img src="./imgs/sass.png" alt="SASS" width="128"/>
-                <img src="./imgs/react.png" alt="REACT" width="128"/>
-                <img src="./imgs/nextjs.png" alt="NEXTJS" width="128"/>
-                <img src="./imgs/azure.png" alt="AZURE" width="128"/>
-                <img src="./imgs/vscode.png" alt="VS CODE" width="128"/>
-                <img src="./imgs/python.png" alt="PYTHON" width="128"/>
+                <img loading = "lazy" src="./imgs/html.png" alt="HTML" width="128"/>
+                <img loading = "lazy" src="./imgs/css.png" alt="CSS" width="128"/>
+                <img loading = "lazy" src="./imgs/javascript.png" alt="JAVASCRIPT" width="128"/>
+                <img loading = "lazy" src="./imgs/sass.png" alt="SASS" width="128"/>
+                <img loading = "lazy" src="./imgs/react.png" alt="REACT" width="128"/>
+                <img loading = "lazy" src="./imgs/nextjs.png" alt="NEXTJS" width="128"/>
+                <img loading = "lazy" src="./imgs/azure.png" alt="AZURE" width="128"/>
+                <img loading = "lazy" src="./imgs/vscode.png" alt="VS CODE" width="128"/>
+                <img loading = "lazy" src="./imgs/python.png" alt="PYTHON" width="128"/>
+                <img loading = "lazy" src="./imgs/html.png" alt="HTML" width="128"/>
+                <img loading = "lazy" src="./imgs/css.png" alt="CSS" width="128"/>
+                <img loading = "lazy" src="./imgs/javascript.png" alt="JAVASCRIPT" width="128"/>
+                <img loading = "lazy" src="./imgs/sass.png" alt="SASS" width="128"/>
+                <img loading = "lazy" src="./imgs/react.png" alt="REACT" width="128"/>
+                <img loading = "lazy" src="./imgs/nextjs.png" alt="NEXTJS" width="128"/>
+                <img loading = "lazy" src="./imgs/azure.png" alt="AZURE" width="128"/>
+                <img loading = "lazy" src="./imgs/vscode.png" alt="VS CODE" width="128"/>
+                <img loading = "lazy" src="./imgs/python.png" alt="PYTHON" width="128"/>
               </div>
             </div>
           </section>
@@ -131,7 +132,7 @@ export default function Home() {
 
               <div className="right-column">
                 <h3>A bit about me</h3>
-                <p>Hi! I'm Bukunmi Akinyemi, a Law graduate, a web developer with profound knowledge of HTML, CSS and JavaScript. I also have intermediate knowledge of PHP, Python and Artificial Intelligence</p>
+                <p>Hi! I'm Bukunmi Akinyemi, a Law graduate, a web developer with profound knowledge of HTML, CSS and JavaScript, React js and Wordpress. I also have intermediate knowledge of PHP, Python and Artificial Intelligence</p>
 
                 <p>I am also perfecting my skills in frameworks like React js and Next js. <strong>I am open to work with you on any web development project</strong></p>
 
@@ -139,14 +140,14 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="projects" className="work-experience container">
+          {/* <section id="projects" className="work-experience container">
             <h2>
               <small>Recent</small>
               Work Experience
             </h2>
             <div className="jobs">
               <Workplace 
-                img= "/imgs/bento-7.jpg"
+                img= "/imgs/bento-6.jpg"
                 title= "Procerum"
                 duration= "2020 - 2023"
                 description= "This is working"
@@ -158,9 +159,9 @@ export default function Home() {
                 description= "Demo"
               />
             </div>
-          </section>
+          </section> */}
 
-          <section className="bento container">
+          <section id="bento" className="bento container">
             <h2>
               <small>
                 Previously
@@ -169,22 +170,22 @@ export default function Home() {
             </h2>
             <div className="bento-grid">
               <a href="#" className="bento-item">
-                <img src="./imgs/bento-1.jpg" alt="Previous developments"/>
+                <img loading="lazy" src="./imgs/binti3.png" alt="Previous developments"/>
+              </a>
+              <a href="https://just-law.vercel.app/" className="bento-item">
+                <img loading="lazy" src="./imgs/binti2.png" alt="Previous developments"/>
               </a>
               <a href="#" className="bento-item">
-                <img src="./imgs/bento-2.jpg" alt="Previous developments"/>
+                <img loading="lazy" src="./imgs/binti5.png" alt="Previous developments"/>
               </a>
               <a href="#" className="bento-item">
-                <img src="./imgs/bento-3.jpg" alt="Previous developments"/>
+                <img loading="lazy" src="./imgs/binti4.png" alt="Previous developments"/>
               </a>
-              <a href="#" className="bento-item">
-                <img src="./imgs/bento-4.jpg" alt="Previous developments"/>
+              <a href="https://bukunmi2108.github.io/menu_project/" className="bento-item">
+                <img loading="lazy" src="./imgs/binti8.png" alt="Previous developments"/>
               </a>
-              <a href="#" className="bento-item">
-                <img src="./imgs/bento-5.jpg" alt="Previous developments"/>
-              </a>
-              <a href="#" className="bento-item">
-                <img src="./imgs/bento-6.jpg" alt="Previous developments"/>
+              <a href="https://innovatelawfirm.vercel.app/" className="bento-item">
+                <img loading="lazy" src="./imgs/binti1.png" alt="Previous developments"/>
               </a>
             </div>
           </section>
